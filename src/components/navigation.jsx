@@ -1,4 +1,14 @@
+import {useEffect, useState} from "react";
+
 export const Navigation = (props) => {
+
+    const [languageName, setLanguageName] = useState('中文');
+
+    useEffect(() => {
+        const languageCode = languageName === 'English' ? 'zh-cn' : 'en-us'
+        props.switchLanguageCode(languageCode);
+    }, [languageName])
+
     return (
         <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
             <div className='container'>
@@ -58,6 +68,12 @@ export const Navigation = (props) => {
                         <li>
                             <a href='#contact' className='page-scroll'>
                                 Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#' onClick={() => setLanguageName(languageName === 'English' ? '中文' : 'English')}
+                               className='page-scroll'>
+                                {languageName}
                             </a>
                         </li>
                     </ul>
