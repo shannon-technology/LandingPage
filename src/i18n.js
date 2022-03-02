@@ -46,7 +46,41 @@ export default {
             "Lorem ipsum dolor",
             "Exercitation ullamco",
             "Lorem ipsum dolor"
-        ]
+        ],
+        "en-us": {
+            title: "ABOUT US",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            question: "Why Choose Us?",
+            "why": [
+                "Lorem ipsum dolor",
+                "Tempor incididunt",
+                "Lorem ipsum dolor",
+                "Incididunt ut labore"
+            ],
+            "why2": [
+                "Aliquip ex ea commodo",
+                "Lorem ipsum dolor",
+                "Exercitation ullamco",
+                "Lorem ipsum dolor"
+            ],
+        },
+        "zh-cn": {
+            title: "关于我们",
+            question: "为什么选择我们？",
+            "paragraph": "来自高校的科学家与来自工业界的资深工程师，打造产学研一体化团队，关注前沿数字技术，为各行业赋能领先的大数据、人工智能与数字孪生技术，建立更强的竞争力，开拓更大市场。",
+            "why": [
+                "理论支撑基础",
+                "核心算法",
+                "工程赋能产品",
+                "自有专利"
+            ],
+            "why2": [
+                "全功能团队",
+                "年富力强",
+                "扁平化组织",
+                "充满活力"
+            ],
+        }
     },
     "Gallery": [
         {
