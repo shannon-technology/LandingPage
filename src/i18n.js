@@ -22,15 +22,15 @@ export default {
         }
     },
     "Header": {
-        "title": "We are a Landing Page!!",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
         "en-us": {
             "title": "We are a Landing Page!!",
-            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+            "more": "Learn More"
         },
         "zh-cn": {
-            "title": "主页",
-            "paragraph": "一些废话"
+            "title": "数字技术改变未来",
+            "paragraph": "大数据技术的出现，给我们的生活带来了全新的改变，在海量信息时代，我们获取信息的方式、以及能获取的信息越来越多，很多人力物力无法有效整理的数据，依靠大数据技术都可以解决。",
+            "more": "了解更多"
         }
     },
     "About": {
