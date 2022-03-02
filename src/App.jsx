@@ -25,7 +25,7 @@ const App = () => {
         <div>
             <Navigation switchLanguageCode={setLanguageCode} data={i18n.Nav[languageCode]}/>
             <Header data={i18n.Header[languageCode]}/>
-            <Features data={i18n.Features}/>
+            <Features data={i18n.Features[languageCode]}/>
             <About data={i18n.About}/>
             <Services data={i18n.Services}/>
             <Gallery data={i18n.Gallery}/>

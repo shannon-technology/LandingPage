@@ -1,5 +1,5 @@
 export default {
-    "Nav":{
+    "Nav": {
         "en-us": {
             "corpName": 'Shannon Tech',
             "feature": "Slogan",
@@ -189,26 +189,57 @@ export default {
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [
-        {
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "Features": {
+        "en-us": {
+            title: "We Focus On",
+            featureList: [
+                {
+                    "icon": "fa fa-comments-o",
+                    "title": "Lorem ipsum",
+                    "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+                },
+                {
+                    "icon": "fa fa-bullhorn",
+                    "title": "Lorem ipsum",
+                    "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+                },
+                {
+                    "icon": "fa fa-group",
+                    "title": "Lorem ipsum",
+                    "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+                },
+                {
+                    "icon": "fa fa-magic",
+                    "title": "Lorem ipsum",
+                    "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+                }
+            ]
         },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "zh-cn": {
+            title: "我们专注于",
+            featureList: [
+                {
+                    "icon": "fa fa-comments-o",
+                    "title": "大数据",
+                    "text": "大数据存储、算法与分析技术"
+                },
+                {
+                    "icon": "fa fa-bullhorn",
+                    "title": "人工智能",
+                    "text": "人工智能算法、框架与训练平台"
+                },
+                {
+                    "icon": "fa fa-group",
+                    "title": "知识图谱",
+                    "text": "知识图谱的挖掘、分析与构建"
+                },
+                {
+                    "icon": "fa fa-magic",
+                    "title": "数据中心",
+                    "text": "数据中心的设计、预算与实施"
+                }
+            ]
+
         }
-    ]
+    }
 }
