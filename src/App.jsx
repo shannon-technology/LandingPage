@@ -23,7 +23,7 @@ const App = () => {
 
     return (
         <div>
-            <Navigation switchLanguageCode={setLanguageCode}/>
+            <Navigation switchLanguageCode={setLanguageCode} data={i18n.Nav[languageCode]}/>
             <Header data={i18n.Header[languageCode]}/>
             <Features data={i18n.Features}/>
             <About data={i18n.About}/>

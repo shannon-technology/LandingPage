@@ -1,4 +1,26 @@
 export default {
+    "Nav":{
+        "en-us": {
+            "corpName": 'Shannon Tech',
+            "feature": "Slogan",
+            "about": "About",
+            "services": "Services",
+            "gallery": "Gallery",
+            "testimonials": "Testimonials",
+            "team": "Team",
+            "contact": "Contact",
+        },
+        "zh-cn": {
+            "corpName": '香侬科技',
+            "feature": "主要方向",
+            "about": "关于我们",
+            "services": "服务",
+            "gallery": "剪影",
+            "testimonials": "成绩",
+            "team": "团队",
+            "contact": "联系我们",
+        }
+    },
     "Header": {
         "title": "We are a Landing Page!!",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",

@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 
 export const Navigation = (props) => {
 
+    const data = props.data;
     const [languageName, setLanguageName] = useState('中文');
 
     useEffect(() => {
@@ -26,7 +27,7 @@ export const Navigation = (props) => {
                         <span className='icon-bar'></span>{' '}
                     </button>
                     <a className='navbar-brand page-scroll' href='#page-top'>
-                        React Landing Page
+                        {data.corpName}
                     </a>{' '}
                 </div>
 
@@ -37,37 +38,37 @@ export const Navigation = (props) => {
                     <ul className='nav navbar-nav navbar-right'>
                         <li>
                             <a href='#features' className='page-scroll'>
-                                Features
+                                {data.feature}
                             </a>
                         </li>
                         <li>
                             <a href='#about' className='page-scroll'>
-                                About
+                                {data.about}
                             </a>
                         </li>
                         <li>
                             <a href='#services' className='page-scroll'>
-                                Services
+                                {data.services}
                             </a>
                         </li>
                         <li>
                             <a href='#portfolio' className='page-scroll'>
-                                Gallery
+                                {data.gallery}
                             </a>
                         </li>
                         <li>
                             <a href='#testimonials' className='page-scroll'>
-                                Testimonials
+                                {data.testimonials}
                             </a>
                         </li>
                         <li>
                             <a href='#team' className='page-scroll'>
-                                Team
+                                {data.team}
                             </a>
                         </li>
                         <li>
                             <a href='#contact' className='page-scroll'>
-                                Contact
+                                {data.contact}
                             </a>
                         </li>
                         <li>
