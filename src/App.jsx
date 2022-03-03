@@ -31,7 +31,7 @@ const App = () => {
             <Gallery data={i18n.Gallery[languageCode]}/>
             <Testimonials data={i18n.Testimonials[languageCode]}/>
             <Team data={i18n.Team[languageCode]}/>
-            <Contact data={i18n.Contact}/>
+            <Contact data={i18n.Contact[languageCode]}/>
         </div>
     );
 };

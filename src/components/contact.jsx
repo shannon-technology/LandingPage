@@ -39,11 +39,8 @@ export const Contact = (props) => {
                     <div className='col-md-8'>
                         <div className='row'>
                             <div className='section-title'>
-                                <h2>Get In Touch</h2>
-                                <p>
-                                    Please fill out the form below to send us an email and we will
-                                    get back to you as soon as possible.
-                                </p>
+                                <h2>{props.data.title}</h2>
+                                <p>{props.data.description}</p>
                             </div>
                             <form name='sentMessage' validate onSubmit={handleSubmit}>
                                 <div className='row'>
@@ -54,7 +51,7 @@ export const Contact = (props) => {
                                                 id='name'
                                                 name='name'
                                                 className='form-control'
-                                                placeholder='Name'
+                                                placeholder={props.data.inputs.name}
                                                 required
                                                 onChange={handleChange}
                                             />
@@ -68,7 +65,7 @@ export const Contact = (props) => {
                                                 id='email'
                                                 name='email'
                                                 className='form-control'
-                                                placeholder='Email'
+                                                placeholder={props.data.inputs.email}
                                                 required
                                                 onChange={handleChange}
                                             />
@@ -82,7 +79,7 @@ export const Contact = (props) => {
                       id='message'
                       className='form-control'
                       rows='4'
-                      placeholder='Message'
+                      placeholder={props.data.inputs.message}
                       required
                       onChange={handleChange}
                   ></textarea>
@@ -90,35 +87,35 @@ export const Contact = (props) => {
                                 </div>
                                 <div id='success'></div>
                                 <button type='submit' className='btn btn-custom btn-lg'>
-                                    Send Message
+                                    {props.data.inputs.button}
                                 </button>
                             </form>
                         </div>
                     </div>
                     <div className='col-md-3 col-md-offset-1 contact-info'>
                         <div className='contact-item'>
-                            <h3>Contact Info</h3>
+                            <h3>{props.data.labels.title}</h3>
                             <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> {props.data.labels.address}
                 </span>
-                                {props.data ? props.data.address : 'loading'}
+                                {props.data.address}
                             </p>
                         </div>
                         <div className='contact-item'>
                             <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> {props.data.labels.phone}
                 </span>{' '}
-                                {props.data ? props.data.phone : 'loading'}
+                                {props.data.phone}
                             </p>
                         </div>
                         <div className='contact-item'>
                             <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'></i> {props.data.labels.email}
                 </span>{' '}
-                                {props.data ? props.data.email : 'loading'}
+                                {props.data.email}
                             </p>
                         </div>
                     </div>
@@ -150,10 +147,8 @@ export const Contact = (props) => {
             <div id='footer'>
                 <div className='container text-center'>
                     <p>
-                        &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-                        <a href='http://www.templatewire.com' rel='nofollow'>
-                            TemplateWire
-                        </a>
+                        地址：陕西省西安市咸宁西路28号 邮编：710049
+                        版权所有：香侬科技（陕西）有限公司 站点建设与维护：  陕ICP备06008037号-5
                     </p>
                 </div>
             </div>

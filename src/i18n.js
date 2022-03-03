@@ -334,10 +334,10 @@ export default {
 
     },
     "Team": {
-        "en-us":{
-            title:"Meet the Team",
-            description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.',
-            members:[
+        "en-us": {
+            title: "Meet the Team",
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.',
+            members: [
                 {
                     "img": "img/team/01.jpg",
                     "name": "Haijun R.",
@@ -360,10 +360,10 @@ export default {
                 }
             ]
         },
-        "zh-cn":{
-            title:"团队",
-            description:'团队的主要成员',
-            members:[
+        "zh-cn": {
+            title: "团队",
+            description: '团队的主要成员',
+            members: [
                 {
                     "img": "img/team/01.jpg",
                     "name": "任海军",
@@ -388,12 +388,50 @@ export default {
         }
     },
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        'en-us': {
+            "title": 'Get In Touch',
+            description: 'Please fill out the form below to send us an email and we will get back to you as soon as possible.',
+            "address": "4321 California St, San Francisco, CA 12345 ",
+            "phone": "+1 123 456 1234",
+            "email": "info@company.com",
+            "facebook": "fb.com",
+            "twitter": "twitter.com",
+            "youtube": "youtube.com",
+            inputs:{
+                name: 'Your Name',
+                email:'Your Email',
+                message:'Leave a Message Here',
+                button:'Send Message'
+            },
+            labels:{
+                title:'Contact Info',
+                address:'Address',
+                phone:'Phone',
+                email: 'Email'
+            }
+        },
+        'zh-cn': {
+            "title": '联系我们',
+            description: '您可以发送邮件联系我们，我们将尽快回复您！',
+            "address": "陕西省西安市西安交通大学科技园",
+            "phone": "8266 0000",
+            "email": "admin@shaanon.com",
+            "facebook": "fb.com",
+            "twitter": "twitter.com",
+            "youtube": "youtube.com",
+            inputs:{
+                name: '姓名',
+                email:'邮件地址',
+                message:'请在此留言',
+                button:'提交留言'
+            },
+            labels:{
+                title:'联系方式',
+                address:'地址',
+                phone:'电话',
+                email: '邮件'
+            }
+        }
     },
     "Features": {
         "en-us": {
