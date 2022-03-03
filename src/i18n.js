@@ -83,10 +83,10 @@ export default {
         }
     },
     "Gallery": {
-        "en-us":{
-            title:"Gallery",
+        "en-us": {
+            title: "Gallery",
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.',
-            galleryList:[
+            galleryList: [
                 {
                     "title": "Project Title",
                     "largeImage": "img/portfolio/01-large.jpg",
@@ -134,8 +134,8 @@ export default {
                 }
             ]
         },
-        "zh-cn":{
-            title:"项目概览",
+        "zh-cn": {
+            title: "项目概览",
             description: '我们已经交付的一些项目',
             galleryList: [
                 {
@@ -187,9 +187,9 @@ export default {
         }
     },
     "Services": {
-        "en-us":{
+        "en-us": {
             title: 'Our Services',
-            description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis seddapibus leonec.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis seddapibus leonec.',
             serviceList: [
                 {
                     "icon": "fa fa-wordpress",
@@ -223,9 +223,9 @@ export default {
                 }
             ]
         },
-        "zh-cn":{
+        "zh-cn": {
             title: '核心服务',
-            description:'我们向您竭诚提供以下服务',
+            description: '我们向您竭诚提供以下服务',
             serviceList: [
                 {
                     "icon": "fa fa-wordpress",
@@ -260,38 +260,79 @@ export default {
             ]
         }
     },
-    "Testimonials": [
-        {
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+    "Testimonials": {
+        "en-us": {
+            title: "What our clients say",
+            testimonialList: [
+                {
+                    "img": "img/testimonials/01.jpg",
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "John Doe"
+                },
+                {
+                    "img": "img/testimonials/02.jpg",
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "Johnathan Doe"
+                },
+                {
+                    "img": "img/testimonials/03.jpg",
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "John Doe"
+                },
+                {
+                    "img": "img/testimonials/04.jpg",
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "Johnathan Doe"
+                },
+                {
+                    "img": "img/testimonials/05.jpg",
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "John Doe"
+                },
+                {
+                    "img": "img/testimonials/06.jpg",
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "Johnathan Doe"
+                }
+            ]
         },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+        "zh-cn": {
+            title: "客户寄语",
+            testimonialList: [
+                {
+                    "img": "img/testimonials/01.jpg",
+                    "text": "非常牛逼，搞的非常好",
+                    "name": "西安铁路局 客户"
+                },
+                {
+                    "img": "img/testimonials/02.jpg",
+                    "text": "非常牛逼，搞的非常好",
+                    "name": "西安铁路局 客户"
+                },
+                {
+                    "img": "img/testimonials/03.jpg",
+                    "text": "非常牛逼，搞的非常好",
+                    "name": "西安铁路局 客户"
+                },
+                {
+                    "img": "img/testimonials/04.jpg",
+                    "text": "帮我我们解决阳光政务的问题",
+                    "name": "郑州高新区 客户"
+                },
+                {
+                    "img": "img/testimonials/05.jpg",
+                    "text": "帮我我们解决阳光政务的问题",
+                    "name": "郑州高新区 客户"
+                },
+                {
+                    "img": "img/testimonials/06.jpg",
+                    "text": "帮我我们解决阳光政务的问题",
+                    "name": "郑州高新区 客户"
+                }
+            ]
         },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
-    ],
+
+    },
     "Team": [
         {
             "img": "img/team/01.jpg",
