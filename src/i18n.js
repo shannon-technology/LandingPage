@@ -129,38 +129,80 @@ export default {
             "smallImage": "img/portfolio/09-small.jpg"
         }
     ],
-    "Services": [
-        {
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "Services": {
+        "en-us":{
+            title: 'Our Services',
+            description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis seddapibus leonec.',
+            serviceList: [
+                {
+                    "icon": "fa fa-wordpress",
+                    "name": "Lorem ipsum dolor",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+                },
+                {
+                    "icon": "fa fa-cart-arrow-down",
+                    "name": "Consectetur adipiscing",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+                },
+                {
+                    "icon": "fa fa-cloud-download",
+                    "name": "Lorem ipsum dolor",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+                },
+                {
+                    "icon": "fa fa-language",
+                    "name": "Consectetur adipiscing",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+                },
+                {
+                    "icon": "fa fa-plane",
+                    "name": "Lorem ipsum dolor",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+                },
+                {
+                    "icon": "fa fa-pie-chart",
+                    "name": "Consectetur adipiscing",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+                }
+            ]
         },
-        {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        "zh-cn":{
+            title: '核心服务',
+            description:'我们向您竭诚提供以下服务',
+            serviceList: [
+                {
+                    "icon": "fa fa-wordpress",
+                    "name": "大数据存储",
+                    "text": "从大数据的接入到大数据存储，全方位的解决数据存储问题"
+                },
+                {
+                    "icon": "fa fa-cart-arrow-down",
+                    "name": "大数据计算与分析",
+                    "text": "从大数据的整理到大数据的算法设计，全面释放大数据价值"
+                },
+                {
+                    "icon": "fa fa-cloud-download",
+                    "name": "人工智能平台",
+                    "text": "评估、设计与实施人工智能计算平台，从0到100构建人工智能平台，为人工智能建立基础"
+                },
+                {
+                    "icon": "fa fa-language",
+                    "name": "人工智能算法设计与模型训练",
+                    "text": "分析问题核心并建模、设计人工智能算法，并在人工智能平台上训练模型"
+                },
+                {
+                    "icon": "fa fa-plane",
+                    "name": "数字孪生",
+                    "text": "从传感器接入、到数据集成，对工业生产过程多物理量、多尺度、多概率的仿真"
+                },
+                {
+                    "icon": "fa fa-pie-chart",
+                    "name": "知识图谱",
+                    "text": "从文本大数据中，构建大规模语义网络"
+                }
+            ]
         }
-    ],
+    },
     "Testimonials": [
         {
             "img": "img/testimonials/01.jpg",

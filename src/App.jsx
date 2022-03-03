@@ -27,7 +27,7 @@ const App = () => {
             <Header data={i18n.Header[languageCode]}/>
             <Features data={i18n.Features[languageCode]}/>
             <About data={i18n.About[languageCode]}/>
-            <Services data={i18n.Services}/>
+            <Services data={i18n.Services[languageCode]}/>
             <Gallery data={i18n.Gallery}/>
             <Testimonials data={i18n.Testimonials}/>
             <Team data={i18n.Team}/>
