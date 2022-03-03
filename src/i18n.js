@@ -333,28 +333,60 @@ export default {
         },
 
     },
-    "Team": [
-        {
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+    "Team": {
+        "en-us":{
+            title:"Meet the Team",
+            description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.',
+            members:[
+                {
+                    "img": "img/team/01.jpg",
+                    "name": "Haijun R.",
+                    "job": "Director"
+                },
+                {
+                    "img": "img/team/02.jpg",
+                    "name": "Mike Doe",
+                    "job": "Senior Designer"
+                },
+                {
+                    "img": "img/team/03.jpg",
+                    "name": "Jane Doe",
+                    "job": "Senior Designer"
+                },
+                {
+                    "img": "img/team/04.jpg",
+                    "name": "Karen Doe",
+                    "job": "Project Manager"
+                }
+            ]
         },
-        {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+        "zh-cn":{
+            title:"团队",
+            description:'团队的主要成员',
+            members:[
+                {
+                    "img": "img/team/01.jpg",
+                    "name": "任海军",
+                    "job": "总裁"
+                },
+                {
+                    "img": "img/team/02.jpg",
+                    "name": "李飞",
+                    "job": "技术总监"
+                },
+                {
+                    "img": "img/team/03.jpg",
+                    "name": "贺刚",
+                    "job": "开发"
+                },
+                {
+                    "img": "img/team/04.jpg",
+                    "name": "李晓飞",
+                    "job": "李飞他弟弟"
+                }
+            ]
         }
-    ],
+    },
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
         "phone": "+1 123 456 1234",
