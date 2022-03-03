@@ -82,53 +82,110 @@ export default {
             ],
         }
     },
-    "Gallery": [
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/01-large.jpg",
-            "smallImage": "img/portfolio/01-small.jpg"
+    "Gallery": {
+        "en-us":{
+            title:"Gallery",
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.',
+            galleryList:[
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/01-large.jpg",
+                    "smallImage": "img/portfolio/01-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/02-large.jpg",
+                    "smallImage": "img/portfolio/02-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/03-large.jpg",
+                    "smallImage": "img/portfolio/03-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/04-large.jpg",
+                    "smallImage": "img/portfolio/04-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/05-large.jpg",
+                    "smallImage": "img/portfolio/05-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/06-large.jpg",
+                    "smallImage": "img/portfolio/06-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/07-large.jpg",
+                    "smallImage": "img/portfolio/07-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/08-large.jpg",
+                    "smallImage": "img/portfolio/08-small.jpg"
+                },
+                {
+                    "title": "Project Title",
+                    "largeImage": "img/portfolio/09-large.jpg",
+                    "smallImage": "img/portfolio/09-small.jpg"
+                }
+            ]
         },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/02-large.jpg",
-            "smallImage": "img/portfolio/02-small.jpg"
-        },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/03-large.jpg",
-            "smallImage": "img/portfolio/03-small.jpg"
-        },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/04-large.jpg",
-            "smallImage": "img/portfolio/04-small.jpg"
-        },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/05-large.jpg",
-            "smallImage": "img/portfolio/05-small.jpg"
-        },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/06-large.jpg",
-            "smallImage": "img/portfolio/06-small.jpg"
-        },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/07-large.jpg",
-            "smallImage": "img/portfolio/07-small.jpg"
-        },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/08-large.jpg",
-            "smallImage": "img/portfolio/08-small.jpg"
-        },
-        {
-            "title": "Project Title",
-            "largeImage": "img/portfolio/09-large.jpg",
-            "smallImage": "img/portfolio/09-small.jpg"
+        "zh-cn":{
+            title:"项目概览",
+            description: '我们已经交付的一些项目',
+            galleryList: [
+                {
+                    "title": "铁路大数据",
+                    "largeImage": "img/portfolio/01-large.jpg",
+                    "smallImage": "img/portfolio/01-small.jpg"
+                },
+                {
+                    "title": "铁路大数据",
+                    "largeImage": "img/portfolio/02-large.jpg",
+                    "smallImage": "img/portfolio/02-small.jpg"
+                },
+                {
+                    "title": "铁路大数据",
+                    "largeImage": "img/portfolio/03-large.jpg",
+                    "smallImage": "img/portfolio/03-small.jpg"
+                },
+                {
+                    "title": "政务大数据方向",
+                    "largeImage": "img/portfolio/04-large.jpg",
+                    "smallImage": "img/portfolio/04-small.jpg"
+                },
+                {
+                    "title": "政务大数据方向",
+                    "largeImage": "img/portfolio/05-large.jpg",
+                    "smallImage": "img/portfolio/05-small.jpg"
+                },
+                {
+                    "title": "政务大数据方向",
+                    "largeImage": "img/portfolio/06-large.jpg",
+                    "smallImage": "img/portfolio/06-small.jpg"
+                },
+                {
+                    "title": "大数据开发工具",
+                    "largeImage": "img/portfolio/07-large.jpg",
+                    "smallImage": "img/portfolio/07-small.jpg"
+                },
+                {
+                    "title": "大数据开发工具",
+                    "largeImage": "img/portfolio/08-large.jpg",
+                    "smallImage": "img/portfolio/08-small.jpg"
+                },
+                {
+                    "title": "大数据开发工具",
+                    "largeImage": "img/portfolio/09-large.jpg",
+                    "smallImage": "img/portfolio/09-small.jpg"
+                }
+            ]
         }
-    ],
+    },
     "Services": {
         "en-us":{
             title: 'Our Services',
