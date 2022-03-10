@@ -1,5 +1,4 @@
-import {useState, useEffect} from "react";
-import React from "react";
+import React, {useState} from "react";
 import {Navigation} from "./components/navigation";
 import {Header} from "./components/header";
 import {Features} from "./components/features";

@@ -22,9 +22,9 @@ export const Navigation = (props) => {
                     >
                         {' '}
                         <span className='sr-only'>Toggle navigation</span>{' '}
-                        <span className='icon-bar'></span>{' '}
-                        <span className='icon-bar'></span>{' '}
-                        <span className='icon-bar'></span>{' '}
+                        <span className='icon-bar'/>{' '}
+                        <span className='icon-bar'/>{' '}
+                        <span className='icon-bar'/>{' '}
                     </button>
                     <a className='navbar-brand page-scroll' href='#page-top'>
                         {data.corpName}
@@ -72,7 +72,7 @@ export const Navigation = (props) => {
                             </a>
                         </li>
                         <li>
-                            <a href='#' onClick={() => setLanguageName(languageName === 'English' ? '中文' : 'English')}
+                            <a href='#top' onClick={() => setLanguageName(languageName === 'English' ? '中文' : 'English')}
                                className='page-scroll'>
                                 {languageName}
                             </a>

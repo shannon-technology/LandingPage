@@ -1,4 +1,4 @@
-export default {
+const i18n = {
     "Nav": {
         "en-us": {
             "corpName": 'Shannon Tech',
@@ -397,16 +397,16 @@ export default {
             "facebook": "fb.com",
             "twitter": "twitter.com",
             "youtube": "youtube.com",
-            inputs:{
+            inputs: {
                 name: 'Your Name',
-                email:'Your Email',
-                message:'Leave a Message Here',
-                button:'Send Message'
+                email: 'Your Email',
+                message: 'Leave a Message Here',
+                button: 'Send Message'
             },
-            labels:{
-                title:'Contact Info',
-                address:'Address',
-                phone:'Phone',
+            labels: {
+                title: 'Contact Info',
+                address: 'Address',
+                phone: 'Phone',
                 email: 'Email'
             }
         },
@@ -419,16 +419,16 @@ export default {
             "facebook": "fb.com",
             "twitter": "twitter.com",
             "youtube": "youtube.com",
-            inputs:{
+            inputs: {
                 name: '姓名',
-                email:'邮件地址',
-                message:'请在此留言',
-                button:'提交留言'
+                email: '邮件地址',
+                message: '请在此留言',
+                button: '提交留言'
             },
-            labels:{
-                title:'联系方式',
-                address:'地址',
-                phone:'电话',
+            labels: {
+                title: '联系方式',
+                address: '地址',
+                phone: '电话',
                 email: '邮件'
             }
         }
@@ -486,4 +486,6 @@ export default {
 
         }
     }
-}
+};
+
+export default i18n;
