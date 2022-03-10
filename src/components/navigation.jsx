@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 export const Navigation = (props) => {
 
     const data = props.data;
-    const [languageName, setLanguageName] = useState('中文');
+    const [languageName, setLanguageName] = useState('English');
 
     useEffect(() => {
         const languageCode = languageName === 'English' ? 'zh-cn' : 'en-us'

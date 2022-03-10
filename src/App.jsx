@@ -19,7 +19,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-    const [languageCode, setLanguageCode] = useState('en-us');
+    const [languageCode, setLanguageCode] = useState('zh-cn');
 
     return (
         <div>
