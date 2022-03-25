@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {Navigation} from "./components/navigation";
 import {Header} from "./components/header";
 import {Features} from "./components/features";
@@ -20,6 +20,10 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 const App = () => {
     const [languageCode, setLanguageCode] = useState('zh-cn');
 
+    useEffect(() => {
+        document.title = languageCode === 'zh-cn' ? "香侬数智" : "shannon tech corporation"
+    }, [languageCode]);
+    
     return (
         <div>
             <Navigation switchLanguageCode={setLanguageCode} data={i18n.Nav[languageCode]}/>
