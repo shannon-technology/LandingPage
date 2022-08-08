@@ -301,32 +301,32 @@ const i18n = {
             testimonialList: [
                 {
                     "img": "img/testimonials/01.jpg",
-                    "text": "非常牛逼，搞的非常好",
-                    "name": "西安铁路局 客户"
+                    "text": "业务娴熟、开发速度快，提前完成了项目",
+                    "name": "美联美智 客户"
                 },
                 {
                     "img": "img/testimonials/02.jpg",
-                    "text": "非常牛逼，搞的非常好",
+                    "text": "工作仔细、认真、负责，不但执行力强，且工作配合度也好",
                     "name": "西安铁路局 客户"
                 },
                 {
                     "img": "img/testimonials/03.jpg",
-                    "text": "非常牛逼，搞的非常好",
-                    "name": "西安铁路局 客户"
+                    "text": "功能强大，界面友好，操作简单易懂，容易上手，为我公司发展助力",
+                    "name": "陕煤 客户"
                 },
                 {
                     "img": "img/testimonials/04.jpg",
-                    "text": "帮我我们解决阳光政务的问题",
-                    "name": "郑州高新区 客户"
+                    "text": "数据处理能力强，从采集、存储到计算、分析、展示，全流程解决。",
+                    "name": "包神铁路 客户"
                 },
                 {
                     "img": "img/testimonials/05.jpg",
-                    "text": "帮我我们解决阳光政务的问题",
-                    "name": "郑州高新区 客户"
+                    "text": "业务领悟深入，不仅完成了项目，还协助我们梳理了业务",
+                    "name": "榆林煤化工 客户"
                 },
                 {
                     "img": "img/testimonials/06.jpg",
-                    "text": "帮我我们解决阳光政务的问题",
+                    "text": "帮我我们解决阳光政务的问题，，合作的过程也是我们学习的过程",
                     "name": "郑州高新区 客户"
                 }
             ]
@@ -367,7 +367,7 @@ const i18n = {
                 {
                     "img": "img/team/01.jpg",
                     "name": "任海军",
-                    "job": "总裁"
+                    "job": "执行董事"
                 },
                 {
                     "img": "img/team/02.jpg",
@@ -375,14 +375,14 @@ const i18n = {
                     "job": "技术总监"
                 },
                 {
-                    "img": "img/team/03.jpg",
-                    "name": "贺刚",
-                    "job": "开发"
+                    "img": "img/team/04.jpg",
+                    "name": "何大宇",
+                    "job": "市场总监"
                 },
                 {
-                    "img": "img/team/04.jpg",
-                    "name": "李晓飞",
-                    "job": "李飞他弟弟"
+                    "img": "img/team/03.jpg",
+                    "name": "贺刚",
+                    "job": "产品总监"
                 }
             ]
         }

@@ -23,7 +23,7 @@ const App = () => {
     useEffect(() => {
         document.title = languageCode === 'zh-cn' ? "香侬数智" : "shannon tech corporation"
     }, [languageCode]);
-    
+
     return (
         <div>
             <Navigation switchLanguageCode={setLanguageCode} data={i18n.Nav[languageCode]}/>
