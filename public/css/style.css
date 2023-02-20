@@ -459,6 +459,7 @@ header .intro-text-masking{
 }
 #team .team-img {
   width: 240px;
+  height: 330px;
 }
 #team .thumbnail {
   background: transparent;

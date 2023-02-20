@@ -376,7 +376,7 @@ const i18n = {
                 },
                 {
                     "img": "img/team/04.jpg",
-                    "name": "何大宇",
+                    "name": "李磊",
                     "job": "市场总监"
                 },
                 {
