@@ -11,7 +11,7 @@ const i18n = {
             "contact": "Contact",
         },
         "zh-cn": {
-            "corpName": '香侬数智',
+            "corpName": '香侬科技',
             "feature": "主要方向",
             "about": "关于我们",
             "services": "服务",

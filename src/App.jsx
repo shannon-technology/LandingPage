@@ -21,7 +21,7 @@ const App = () => {
     const [languageCode, setLanguageCode] = useState('zh-cn');
 
     useEffect(() => {
-        document.title = languageCode === 'zh-cn' ? "香侬数智" : "shannon tech corporation"
+        document.title = languageCode === 'zh-cn' ? "香侬科技" : "shannon tech corporation"
     }, [languageCode]);
 
     return (

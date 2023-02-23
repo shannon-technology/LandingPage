@@ -148,7 +148,7 @@ export const Contact = (props) => {
                 <div className='container text-center'>
                     <p>
                         地址：陕西省西安市咸宁西路28号 邮编：710049
-                        版权所有：香侬科技（陕西）有限公司 站点建设与维护： 陕ICP备2022002137号
+                        版权所有：香侬科技（陕西）有限公司 站点建设与维护： <a href="https://beian.miit.gov.cn/">陕ICP备2022002137号</a>
                     </p>
                 </div>
             </div>
